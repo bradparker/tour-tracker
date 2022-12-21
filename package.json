@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "babel --ignore=**/__tests__/*.js source -d dist",
+    "build:examples": "webpack --config examples/webpack.config.js",
     "dev": "webpack-dev-server --config examples/webpack.config.js --content-base examples/build --history-api-fallback",
     "test": "mocha source/components/Map/__tests__/index.js --compilers js:babel-register",
     "prepublish": "npm test && npm run build"
