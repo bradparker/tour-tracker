@@ -30,5 +30,5 @@ render(
       <Route path='/waypoints' component={Waypoints} />
     </Route>
   </Router>,
-  document.getElementById('mount')
+  document.getElementById('app')
 )
