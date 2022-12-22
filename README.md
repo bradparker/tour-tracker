@@ -2,6 +2,8 @@
 
 Plot tourers along a route using their distance.
 
+[See it in action!](https://bradparker.github.io/tour-tracker/)
+
 ### The Bits
 
 * React
